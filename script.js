@@ -32,5 +32,5 @@ for (let i = 0; i < 5; ++i) {
     let playerSelection   = getPlayerSelection();
     let computerSelection = getComputerSelection();
     let result            = playRound(playerSelection, computerSelection);
-    console.log(`Player choose: ${playerSelection}, computer choose: ${computerSelection}: ${result}`);
+    document.write(`Player choose: ${playerSelection}, computer choose: ${computerSelection}: ${result}<br>`);
 }
